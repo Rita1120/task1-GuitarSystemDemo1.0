@@ -1,7 +1,26 @@
-package dataBaseTable;
+﻿package dataBaseTable;
 public class Guitar {
+//吉他类
 	 private String serialNumber, builder, model, type, backWood, topWood;
-	  private double price;
+	  
+	private double price;
+
+	  public Guitar(){
+		  
+	  }
+	  
+	  public Guitar(String serialNumber, String builder, String model, String type, String backWood, String topWood,
+				double price) {
+			super();
+			this.serialNumber = serialNumber;
+			this.builder = builder;
+			this.model = model;
+			this.type = type;
+			this.backWood = backWood;
+			this.topWood = topWood;
+			this.price = price;
+		}
+	  
 	  
   public String getSerialNumber() {
 		return serialNumber;
