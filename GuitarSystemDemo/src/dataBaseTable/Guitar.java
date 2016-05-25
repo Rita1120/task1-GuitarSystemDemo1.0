@@ -11,7 +11,7 @@ public class Guitar {
 	  
 	  public Guitar(String serialNumber, String builder, String model, String type, String backWood, String topWood,
 				double price) {
-			super();
+			//super();
 			this.serialNumber = serialNumber;
 			this.builder = builder;
 			this.model = model;
